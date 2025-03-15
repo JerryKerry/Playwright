@@ -17,4 +17,3 @@ def test_google_search(browser_page:Page):
     browser_page.wait_for_load_state("domcontentloaded")
     assert "Playwright" in browser_page.title()
     print("✅ Тест успешно пройден!")
-
